@@ -1,0 +1,17 @@
+{
+    "name": "mary/car",
+    "description": "my project for hillel",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mary\\Car\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MaruSoul",
+            "email": "soulmeri0@gmail.com"
+        }
+    ],
+    "require": {}
+}
