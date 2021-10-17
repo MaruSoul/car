@@ -34,12 +34,18 @@ $car->down();
 $car->down();
 
 
-$car->up()
-    ->up()
-    ->up();
-
-
-
-
-
+$superEngine = new SuperEngine(100);
+$superEngine->setTurbo(true);
+$motorcycle = new Motorcycle('Ducati', $superEngine);
+$motorcycle->start();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->up();
+$motorcycle->stop();
 

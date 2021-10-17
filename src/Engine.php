@@ -2,10 +2,10 @@
 
 namespace Mary\Car;
 
-class Engine 
+class Engine implements EngineInterface
 {
-    private float $maxSpeed;
-    private float $minSpeed;
+    protected float $maxSpeed;
+    protected float $minSpeed;
 
     public function __construct(float $maxSpeed,float $minSpeed = 0)
     {

@@ -9,13 +9,13 @@ abstract class Movable implements MovableInterface
 
     private string $model;
     
-    private Engine $engine;
+    private EngineInterface $engine;
     
     private float $currentSpeed = 0;
 
     private $status = self::STATUS_STOP;
 
-    public function __construct(string $model, Engine $engine)
+    public function __construct(string $model, EngineInterface $engine)
     {
         $this->model = $model;
         $this->engine = $engine; 
